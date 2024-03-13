@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: green;
+      }
+
+      #form{
+        
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Events  -->
+    <!-- mouse event  -->
+    <!--onClick, Ondblclick, onContextmenu, onMouseDown, onMouseUp, onMouseOver, onMouseOut-->
+    <!-- keyBoard event  -->
+    <div class="box" onmouseout="fun()"></div>
+
+    <div id="form">
+        <h1>Key Board Event</h1>
+        <p>on keyDown</p>
+        <input type="text">
+
+        <p>on keyUp</p>
+        <input type="text">
+
+        <p>on keypress</p>
+        <input type="text"> 
+    </div>
+
+    <script>
+      function fun() {
+        alert("Event activate");
+      }
+    </script>
+  </body>
+</html>
